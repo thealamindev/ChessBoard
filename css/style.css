@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBoard {
+    padding: 10px;
+    width: 800px;
+    margin: 0 auto;
+    background: rgb(221, 221, 221);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.up {
+    display: flex;
+}
+
+.white {
+    width: 100px;
+    background: white;
+    height: 100px;
+    position: relative;
+}
+
+.white span {
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.black {
+    background: rgb(0, 0, 0);
+    position: relative;
+}
+
+.black span {
+    font-size: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
